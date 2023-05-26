@@ -30,7 +30,8 @@ if (process.env.NEXT_PUBLIC_API_PREFIX && process.env.NEXT_PUBLIC_PUBLIC_API_PRE
 
 export const API_PREFIX: string = apiPrefix;
 export const PUBLIC_API_PREFIX: string = publicApiPrefix;
-
+export const APP_ID = '8553d4ce-51f2-4f3a-91df-8cd00add17a2'
+export const API_KEY = 'app-mCyaGaOCA0YuJmqIhOBgceAq'
 const EDITION = process.env.NEXT_PUBLIC_EDITION || globalThis.document?.body?.getAttribute('data-public-edition')
 export const IS_CE_EDITION = EDITION === 'SELF_HOSTED'
 
